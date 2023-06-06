@@ -5,12 +5,12 @@ import { DevicesListComponent } from './components/devices/devices-list/devices-
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'users',
     component: UsersListComponent
   },
 
   {
-    path: '/devices',
+    path: 'devices',
     component: DevicesListComponent
   }
 
